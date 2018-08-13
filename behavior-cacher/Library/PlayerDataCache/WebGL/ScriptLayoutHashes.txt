@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/__Unity/GitHub Projects/Unity3d-behavior-cacher/behavior-cacher/WebGL
+D:/__Unity/GitHub Projects/Unity3d-behavior-cacher/behavior-cacher/WebbyGL
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?

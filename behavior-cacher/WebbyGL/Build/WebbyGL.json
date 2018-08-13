@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "behavior-cacher",
+"dataUrl": "WebbyGL.data.unityweb",
+"wasmCodeUrl": "WebbyGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebbyGL.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}

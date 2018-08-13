@@ -183,6 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1461852544}
   - {fileID: 249706296}
@@ -214,7 +215,6 @@ MonoBehaviour:
   - {fileID: 480429753}
   - {fileID: 495459208}
   - {fileID: 1551579458}
-  launchSpeed: 0.125
 --- !u!1 &6032618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3800,6 +3800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 826049960}
   - {fileID: 947490992}
@@ -3831,7 +3832,6 @@ MonoBehaviour:
   - {fileID: 2123887627}
   - {fileID: 193911050}
   - {fileID: 842800436}
-  launchSpeed: 0.125
 --- !u!1 &86037937
 GameObject:
   m_ObjectHideFlags: 0
@@ -12224,6 +12224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 135011171}
   - {fileID: 613390513}
@@ -12255,7 +12256,6 @@ MonoBehaviour:
   - {fileID: 1850217942}
   - {fileID: 116457702}
   - {fileID: 921028129}
-  launchSpeed: 0.125
 --- !u!1 &307991900
 GameObject:
   m_ObjectHideFlags: 0
@@ -12554,6 +12554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 143601400}
   - {fileID: 1180292786}
@@ -12585,7 +12586,6 @@ MonoBehaviour:
   - {fileID: 878462869}
   - {fileID: 887919910}
   - {fileID: 474957367}
-  launchSpeed: 0.125
 --- !u!1 &315682733
 GameObject:
   m_ObjectHideFlags: 0
@@ -16252,6 +16252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1964790604}
   - {fileID: 927927732}
@@ -16283,7 +16284,6 @@ MonoBehaviour:
   - {fileID: 936738758}
   - {fileID: 2113073469}
   - {fileID: 740836495}
-  launchSpeed: 0.125
 --- !u!1 &422770694
 GameObject:
   m_ObjectHideFlags: 0
@@ -16354,6 +16354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 921247867}
   - {fileID: 47045586}
@@ -16385,7 +16386,6 @@ MonoBehaviour:
   - {fileID: 1725134818}
   - {fileID: 1178747878}
   - {fileID: 556078303}
-  launchSpeed: 0.125
 --- !u!1 &432296528
 GameObject:
   m_ObjectHideFlags: 0
@@ -16529,7 +16529,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1437184360}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16549,7 +16549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
+  m_UseGraphicAlpha: 0
 --- !u!114 &433314493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19668,6 +19668,75 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 485341909}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &490516471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 490516472}
+  - component: {fileID: 490516474}
+  - component: {fileID: 490516473}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &490516472
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490516471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1437184360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -239.87, y: 158.5}
+  m_SizeDelta: {x: 480.25, y: 283}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &490516473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490516471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.20784314, g: 0.49019608, b: 0.92941177, a: 0.32941177}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &490516474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490516471}
+  m_CullTransparentMesh: 0
 --- !u!1 &491279999
 GameObject:
   m_ObjectHideFlags: 0
@@ -21293,7 +21362,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1437184360}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21515,7 +21584,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -21538,13 +21607,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.974, y: -3.244, z: -10}
+  m_LocalRotation: {x: 0.006195524, y: -0, z: -0, w: 0.9999808}
+  m_LocalPosition: {x: -9.974, y: -2.8, z: -17.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.71000004, y: 0, z: 0}
 --- !u!1 &534702655
 GameObject:
   m_ObjectHideFlags: 0
@@ -23781,6 +23850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1792242712}
   - {fileID: 1890136834}
@@ -23812,7 +23882,6 @@ MonoBehaviour:
   - {fileID: 1993457900}
   - {fileID: 1160099109}
   - {fileID: 1996615475}
-  launchSpeed: 0.125
 --- !u!1 &573563845
 GameObject:
   m_ObjectHideFlags: 0
@@ -25023,6 +25092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1883242287}
   - {fileID: 1885816162}
@@ -25054,7 +25124,6 @@ MonoBehaviour:
   - {fileID: 1147391743}
   - {fileID: 1408391635}
   - {fileID: 471854442}
-  launchSpeed: 0.125
 --- !u!1 &603632759
 GameObject:
   m_ObjectHideFlags: 0
@@ -25581,6 +25650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 801940542}
   - {fileID: 1322511131}
@@ -25612,7 +25682,6 @@ MonoBehaviour:
   - {fileID: 361080605}
   - {fileID: 1083188439}
   - {fileID: 1937120576}
-  launchSpeed: 0.125
 --- !u!1 &613390510
 GameObject:
   m_ObjectHideFlags: 0
@@ -32067,6 +32136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 445329137}
   - {fileID: 1406918340}
@@ -32098,7 +32168,6 @@ MonoBehaviour:
   - {fileID: 1237923347}
   - {fileID: 469819331}
   - {fileID: 1789892593}
-  launchSpeed: 0.125
 --- !u!1 &762288332
 GameObject:
   m_ObjectHideFlags: 0
@@ -35931,6 +36000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 347471362}
   - {fileID: 1149726719}
@@ -35962,7 +36032,6 @@ MonoBehaviour:
   - {fileID: 1981350262}
   - {fileID: 1260546730}
   - {fileID: 51924441}
-  launchSpeed: 0.125
 --- !u!1 &842165134
 GameObject:
   m_ObjectHideFlags: 0
@@ -37743,6 +37812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 995168984}
   - {fileID: 738443955}
@@ -37774,7 +37844,6 @@ MonoBehaviour:
   - {fileID: 1970931343}
   - {fileID: 1310412984}
   - {fileID: 832315896}
-  launchSpeed: 0.125
 --- !u!1 &862578154
 GameObject:
   m_ObjectHideFlags: 0
@@ -43060,6 +43129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 2060269783}
   - {fileID: 668882765}
@@ -43091,7 +43161,6 @@ MonoBehaviour:
   - {fileID: 737216117}
   - {fileID: 1623874194}
   - {fileID: 1931930915}
-  launchSpeed: 0.125
 --- !u!1 &956752999
 GameObject:
   m_ObjectHideFlags: 0
@@ -48594,7 +48663,7 @@ RectTransform:
   m_Children:
   - {fileID: 2066995207}
   m_Father: {fileID: 1437184360}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -54902,6 +54971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 207141791}
   - {fileID: 1700978756}
@@ -54933,7 +55003,6 @@ MonoBehaviour:
   - {fileID: 1276602616}
   - {fileID: 148316536}
   - {fileID: 467206420}
-  launchSpeed: 0.125
 --- !u!1 &1237607900
 GameObject:
   m_ObjectHideFlags: 0
@@ -58538,6 +58607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1755940030}
   - {fileID: 1697155571}
@@ -58569,7 +58639,6 @@ MonoBehaviour:
   - {fileID: 1653656036}
   - {fileID: 1265901661}
   - {fileID: 101311664}
-  launchSpeed: 0.125
 --- !u!1 &1321358276
 GameObject:
   m_ObjectHideFlags: 0
@@ -60236,6 +60305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1068320297}
   - {fileID: 603632762}
@@ -60267,7 +60337,6 @@ MonoBehaviour:
   - {fileID: 966227899}
   - {fileID: 1218318555}
   - {fileID: 1081756377}
-  launchSpeed: 0.125
 --- !u!1 &1361095780
 GameObject:
   m_ObjectHideFlags: 0
@@ -62048,6 +62117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 954835121}
   - {fileID: 155584955}
@@ -62079,7 +62149,6 @@ MonoBehaviour:
   - {fileID: 982944312}
   - {fileID: 507402520}
   - {fileID: 1073225750}
-  launchSpeed: 0.125
 --- !u!1 &1432227900
 GameObject:
   m_ObjectHideFlags: 0
@@ -62452,11 +62521,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d81800938587f40a62be6de85db464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useCache: 0
-  textTotalTime: {fileID: 433314493}
-  textCollisionsPerSecond: {fileID: 1667959162}
   textCachingDisabled: {fileID: 531715003}
+  textCollisionsPerSecond: {fileID: 1667959162}
+  textTotalTime: {fileID: 433314493}
   toggleCaching: {fileID: 1072248455}
+  useCache: 0
 --- !u!114 &1437184357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62524,6 +62593,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 490516472}
   - {fileID: 433314491}
   - {fileID: 1667959160}
   - {fileID: 1072248454}
@@ -69218,6 +69288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 844952474}
   - {fileID: 629332728}
@@ -69249,7 +69320,6 @@ MonoBehaviour:
   - {fileID: 217090113}
   - {fileID: 924952809}
   - {fileID: 1258972892}
-  launchSpeed: 0.125
 --- !u!1 &1609306368
 GameObject:
   m_ObjectHideFlags: 0
@@ -72284,6 +72354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1525463322}
   - {fileID: 649649620}
@@ -72315,7 +72386,6 @@ MonoBehaviour:
   - {fileID: 1689031732}
   - {fileID: 621007239}
   - {fileID: 1691633755}
-  launchSpeed: 0.125
 --- !u!1 &1667959159
 GameObject:
   m_ObjectHideFlags: 0
@@ -72345,7 +72415,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1437184360}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -72704,6 +72774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1609728071}
   - {fileID: 1787772448}
@@ -72735,7 +72806,6 @@ MonoBehaviour:
   - {fileID: 1990139045}
   - {fileID: 1594895493}
   - {fileID: 1321358279}
-  launchSpeed: 0.125
 --- !u!1 &1676950614
 GameObject:
   m_ObjectHideFlags: 0
@@ -76682,6 +76752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 353547355}
   - {fileID: 127263704}
@@ -76713,7 +76784,6 @@ MonoBehaviour:
   - {fileID: 2051517946}
   - {fileID: 1972300536}
   - {fileID: 1065946601}
-  launchSpeed: 0.125
 --- !u!1 &1760347428
 GameObject:
   m_ObjectHideFlags: 0
@@ -78836,6 +78906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 530859095}
   - {fileID: 723287514}
@@ -78867,7 +78938,6 @@ MonoBehaviour:
   - {fileID: 1531152255}
   - {fileID: 302926589}
   - {fileID: 1620889155}
-  launchSpeed: 0.125
 --- !u!1 &1797353699
 GameObject:
   m_ObjectHideFlags: 0
@@ -80762,6 +80832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 856605473}
   - {fileID: 190384232}
@@ -80793,7 +80864,6 @@ MonoBehaviour:
   - {fileID: 1451058249}
   - {fileID: 62511164}
   - {fileID: 2008138397}
-  launchSpeed: 0.125
 --- !u!1 &1832180404
 GameObject:
   m_ObjectHideFlags: 0
@@ -85082,6 +85152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1904827491}
   - {fileID: 2010214625}
@@ -85113,7 +85184,6 @@ MonoBehaviour:
   - {fileID: 1880178700}
   - {fileID: 638800093}
   - {fileID: 2083380974}
-  launchSpeed: 0.125
 --- !u!1 &1937120573
 GameObject:
   m_ObjectHideFlags: 0
@@ -85982,6 +86052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1309472082}
   - {fileID: 1110080830}
@@ -86013,7 +86084,6 @@ MonoBehaviour:
   - {fileID: 323144868}
   - {fileID: 1997504944}
   - {fileID: 255910939}
-  launchSpeed: 0.125
 --- !u!1 &1958163493
 GameObject:
   m_ObjectHideFlags: 0
@@ -86084,6 +86154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 1150437588}
   - {fileID: 688811348}
@@ -86115,7 +86186,6 @@ MonoBehaviour:
   - {fileID: 779858823}
   - {fileID: 1029908327}
   - {fileID: 1750223142}
-  launchSpeed: 0.125
 --- !u!1 &1959119504
 GameObject:
   m_ObjectHideFlags: 0
@@ -93800,6 +93870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80fec379b514f8408045dcab9de9156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  launchSpeed: 0.125
   projectiles:
   - {fileID: 438726011}
   - {fileID: 2048320709}
@@ -93831,7 +93902,6 @@ MonoBehaviour:
   - {fileID: 2018893377}
   - {fileID: 996830182}
   - {fileID: 919246384}
-  launchSpeed: 0.125
 --- !u!1 &2103385155
 GameObject:
   m_ObjectHideFlags: 0
